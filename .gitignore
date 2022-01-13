@@ -1,0 +1,10 @@
+# Git
+.git
+
+# Node
+node_modules
+
+# Bitburner
+scrap*
+logs/
+*.script
