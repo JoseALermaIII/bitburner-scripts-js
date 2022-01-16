@@ -6,7 +6,7 @@
  *  @return {Promise<void>}
  */
 
-import * as startUp from "./libs/startup.js";
+import * as startUp from "./bin/startup.js";
 
 // Logging
 /** @constant

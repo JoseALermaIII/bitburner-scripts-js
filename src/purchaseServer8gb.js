@@ -1,4 +1,4 @@
-import { calcMaxThreads } from "./libs/upgradeServers.js";
+import { calcMaxThreads } from "./bin/upgradeServers.js";
 /** @param {NS} ns **/
 export async function main(ns) {
 	/* Continuously try to purchase servers until we've reached the maximum

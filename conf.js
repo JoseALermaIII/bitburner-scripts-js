@@ -4,7 +4,7 @@ module.exports = {
     plugins: ['plugins/markdown'],
     recurseDepth: 10,
     source: {
-        "include": ["./src/legacy","./src/libs"],
+        "include": ["./src/legacy","./src/bin"],
         "includePattern": ".+\\.js(doc|x)?$",
         "excludePattern": "(^|\\/|\\\\)_|scrap.*\.js"
     },
