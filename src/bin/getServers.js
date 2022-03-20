@@ -34,15 +34,12 @@ export function buildNetwork(ns, _map, target) {
 	}
 }
 
-export async function main(ns) {
+export async function main(ns, maxDepth=null) {
 	await ns.write(logFile, "Start getServers.js\n", logMode);
 	
 	// Constants and Variables
-	let maxDepth = null; // Maximum depth
-	if (ns.args.length === 0) {
-		maxDepth = 5; // Default if no args
-	} else {
-		maxDepth = ns.args[0];
+	if (!maxDepth) {
+		maxDepth = 5; // Default maximum depth if no args
 	}
 	const servers = new Map(); // Server object
 	let depth = 0; 	// Depth counter
