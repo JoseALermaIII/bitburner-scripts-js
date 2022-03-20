@@ -15,7 +15,14 @@ module.exports = {
     },
     templates: {
         "cleverLinks": false,
-        "monospaceLinks": false
+        "monospaceLinks": false,
+        "default": {
+            "staticFiles": {
+                "include": [
+                    "./LICENSE"
+                ]
+            }
+        }
     },
     opts: {
         "destination": "../bitburner-scripts-js-docs/html/",
