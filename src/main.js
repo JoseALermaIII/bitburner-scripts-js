@@ -10,7 +10,7 @@ import * as startUp from "./bin/startup.js";
 
 // Logging
 /** @constant
- *  @ default
+ *  @default
  */
 const logFile = "/logs/main.txt";
 const logMode = "w";
