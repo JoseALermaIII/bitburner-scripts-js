@@ -1,4 +1,4 @@
-/** bitburner-scripts-js.main
+/**
  *  @remarks
  *  Placeholder until final logic is determined
  *
