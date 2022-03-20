@@ -3,7 +3,7 @@
   "author": "Jose A Lerma III",
   "license": "MIT",
   "description": "Example implementations of scripts used in the TypeScript-based game bitburner",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "main.js",
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
