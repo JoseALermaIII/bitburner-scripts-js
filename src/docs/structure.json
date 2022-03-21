@@ -1,0 +1,10 @@
+{
+    "installation": {
+        "title": "Installation",
+        "children": {
+            "vscodium_setup": {
+                "title": "VSCodium Setup"
+            }
+        }
+    }
+}
