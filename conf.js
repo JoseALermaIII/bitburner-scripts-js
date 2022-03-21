@@ -28,5 +28,6 @@ module.exports = {
         "destination": "../bitburner-scripts-js-docs/html/",
         "recurse": true,
         "readme": "./README.md",
+        "tutorials": "./src/docs",
     }
 };
