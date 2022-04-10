@@ -160,6 +160,7 @@ export async function main(ns) {
 		}
 		let tool = bestServers.tools[toolNum];
 
+		/* TODO: Too WET, break out into function */
 		switch (numPorts) {
 			case 0:
 				// No tools required
