@@ -45,7 +45,7 @@ Getting it to work with VSCodium requires a bit more effort. The [settings.json 
 ```
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.env.windows":{
-        "PATH":"${env:PATH};P:\\PortableApps\\CommonFiles\\node-v16.14.2-win-x64\\;X:\\PortableApps\\CommonFiles\\PortableGit\\bin\\",
+        "PATH":"${env:PATH};X:\\PortableApps\\CommonFiles\\node-v16.14.2-win-x64\\;X:\\PortableApps\\CommonFiles\\PortableGit\\bin\\",
     },
 ```
 
