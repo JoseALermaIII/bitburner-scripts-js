@@ -8,10 +8,6 @@ It's also missing Microsoft's VS Code Marketplace (and their proprietary tools/e
 
 Otherwise, it's exactly the same as VS Code, with an independent extension gallery and [process for migrating from VS Code](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#migrating).
 
-**Tip:**
-> I recommend getting the [vscode-eslint extension](https://open-vsx.org/extension/dbaeumer/vscode-eslint) to help with linting.
-
-
 ### Windows Setup
 Similar to my [Python environment](https://josealermaiii.github.io/python-tutorials/getting_started/installation.html), I like to use [PortableApps.com Platform](https://portableapps.com/download), to create a portable base environment.
 
@@ -50,3 +46,12 @@ Getting it to work with VSCodium requires a bit more effort. The [settings.json 
 ```
 
 VSCodium has built-in git versioning extensions, so including the above also helps it find the git executable.
+
+#### ESLint
+ESLint is a JavaScript linter that does code analysis to fix syntax issues and provide suggestions following a predefined and customizable set of standards. It's a great start if a style guide hasn't been set.
+
+I recommend installing the [vscode-eslint extension](https://open-vsx.org/extension/dbaeumer/vscode-eslint) for linting. It separately needs to know where node.js is. So, add the following to the `User/settings.json` file:
+
+```
+    "eslint.nodePath": "X:\\PortableApps\\CommonFiles\\node-v16.13.1-win-x64\\node.exe",
+```
