@@ -55,3 +55,14 @@ I recommend installing the [vscode-eslint extension](https://open-vsx.org/extens
 ```
     "eslint.nodePath": "X:\\PortableApps\\CommonFiles\\node-v16.13.1-win-x64\\node.exe",
 ```
+
+#### Bitburner VSCode Integration
+Optionally, the [bitburner-vscode-integration extension](https://marketplace.visualstudio.com/items?itemName=bitburner.bitburner-vscode-integration) is a helper extension that automatically uploads scripts to the running Bitburner instance after editing them on the computer, bypassing the in-game editor.
+
+The GitHub repo has additional instructions for [getting the authentication token](https://github.com/bitburner-official/bitburner-vscode#authentication) and adding it to the extension.
+
+For the purposes of this guide, the extension needs to know the directory containing the bitburner scripts. Again, the included [settings.json file](https://github.com/JoseALermaIII/bitburner-scripts-js/blob/master/.vscode/settings.json) from the `.vscode` folder already has the repo's directory:
+
+```
+    "bitburner.scriptRoot": "./src/",
+```
