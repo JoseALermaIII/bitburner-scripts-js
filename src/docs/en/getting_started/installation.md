@@ -1,9 +1,7 @@
 There are many ways to install and use Node.js depending on the platform and IDE (Integrated Development Environment) — if any. These docs cover the methods I frequently use.
 
 ### Windows
-For Windows, I ended up going with {@tutorial vscodium_setup} because it's more updated; however, I give [Atom.io](https://atom.io/) an honorable mention.
-
-Atom is similar to VSCodium, but it's not as focused on JavaScript programming. There are packages to help with this, but VSCodium's extension gallery is more updated and extensive. Regardless, they're both light and have a portable configuration available.
+For Windows, I ended up going with {@tutorial vscodium_setup} because it's more updated.
 
 I'm sure [WebStorm](https://www.jetbrains.com/webstorm/) would be even more extensible and full-featured than VSCodium, but I'm equally confident it'll be far more resource-heavy.
 

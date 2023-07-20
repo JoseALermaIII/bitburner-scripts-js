@@ -49,4 +49,4 @@ Getting it to work with VSCodium requires a bit more effort. The [settings.json 
     },
 ```
 
-Similar to Atom.io, VSCodium has built-in git versioning extensions, so including the above also helps it find the git executable.
+VSCodium has built-in git versioning extensions, so including the above also helps it find the git executable.
