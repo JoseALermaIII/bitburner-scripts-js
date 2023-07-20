@@ -17,7 +17,7 @@ Similar to my [Python environment](https://josealermaiii.github.io/python-tutori
 
 This necessitates going with [portable mode](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#how-do-i-run-vscodium-in-portable-mode) in a subfolder like, `X:\PortableApps\VSCodium_x64`.
 
-For Windows and Linux, it's the same as [VS Code's portable mode guide](https://code.visualstudio.com/docs/editor/portable). There's a note in VSCodium's guide for a file path difference for those wondering about MacOS.
+For Windows and Linux, it's the same as [VS Code's portable mode guide](https://code.visualstudio.com/docs/editor/portable). There's a note in VSCodium's guide for a file path difference for those wondering about macOS.
 
 From there, we can keep up with the portable theme by installing embeddable versions of the software we need.
 
