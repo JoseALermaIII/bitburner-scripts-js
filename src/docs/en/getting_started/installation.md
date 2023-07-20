@@ -31,7 +31,7 @@ Now, we can build the docs in HTML format:
 This will save the docs website in `../../bitburner-scripts-js-docs/`.
 
 **Tip:**
-> If you followed [[vscodium_setup|VSCodium Setup]], this can be run as the `npm: doc` task under **Terminal > Run Task...**.
+> If you followed {@tutorial vscodium_setup}, this can be run as the `npm: doc` task under **Terminal > Run Task...**.
 
 ### Disclaimer
 Though covered by the MIT License, I reiterate: executable programs written from code on the Internet can end up doing bad things.
